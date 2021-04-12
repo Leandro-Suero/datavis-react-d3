@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 0.25rem;
+  background-color: #137b80;
+  padding: 1.25rem 0rem;
+}
+
+.btn a {
+  padding: 1.25rem 2.5rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+}

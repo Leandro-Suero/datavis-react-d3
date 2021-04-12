@@ -1,16 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 body {
   margin: 0;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
-}
-#root {
-  min-height: 100vh;
 }
 pre {
   font-size: 7em;
@@ -21,8 +12,14 @@ pre {
 .tick text {
   fill: #635f5d;
 }
-.mark {
+.marks circle {
   fill: #137b80;
+}
+.marks path {
+  stroke: #137b80;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
 }
 .axis-label {
   font-size: 2.5em;
