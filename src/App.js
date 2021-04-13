@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./components/pages/Home";
-import BarGraph from "./components/Bar/BarGraph";
-import LineGraph from "./components/Line/LineGraph";
-import GeoGraph from "./components/Geo/GeoGraph";
-import ScatterGraph from "./components/Scatter/ScatterGraph";
-import InteractiveGraph from "./components/Interactive/InteractiveGraph";
+import BarGraph from "./components/graphs/Bar/BarGraph";
+import LineGraph from "./components/graphs/Line/LineGraph";
+import GeoGraph from "./components/graphs/Geo/GeoGraph";
+import ScatterGraph from "./components/graphs/Scatter/ScatterGraph";
+import InteractiveGraph from "./components/graphs/Interactive/InteractiveGraph";
 
 function App() {
   return (
